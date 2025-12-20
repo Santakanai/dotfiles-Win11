@@ -1,5 +1,5 @@
 # dotfiles 
-дотсы для win 11
+дотсы для win 11<br>
 для использования нужен 
  - notepad++
  - powershell 7
