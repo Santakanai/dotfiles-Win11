@@ -25,3 +25,4 @@ function ln { param(
 # --- aliases ---
 set-alias xpl explorer
 set-alias cd z
+set-alias v nvim
