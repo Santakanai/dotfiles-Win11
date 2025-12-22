@@ -26,3 +26,4 @@ function ln { param(
 set-alias xpl explorer
 set-alias cd z
 set-alias v nvim
+set-alias vs vscodium
