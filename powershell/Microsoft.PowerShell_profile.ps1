@@ -1,4 +1,4 @@
-#Sakanai powershell profile, check https://github.com/santakanai
+#Sakanai powershell profile, check https://github.com/santakanai/dotfiles-Win11
 # --- PRE-INIT ---
 Remove-Item alias:ls -ErrorAction SilentlyContinue #for eza
 Remove-Item alias:cat -ErrorAction SilentlyContinue #for bat
@@ -27,3 +27,4 @@ set-alias xpl explorer
 set-alias cd z
 set-alias v nvim
 set-alias vs vscodium
+set-alias zip nanazip
