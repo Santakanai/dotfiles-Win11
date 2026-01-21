@@ -12,16 +12,16 @@ function cat { bat $args }
 function notepad { & "C:\Program Files\Notepad++\notepad++.exe" $args }
 # --- new functions ---
 function ln { param(
-        [string]$Target,
-        [string]$Source 
-		)
-    $dir = Split-Path $Target
-    if ($dir -and !(Test-Path $dir)) 
+	[string]$Target,
+	[string]$Source 
+	)
+	$dir = Split-Path $Target
+	if ($dir -and !(Test-Path $dir)) 
 	{ New-Item -ItemType Directory -Path $dir | Out-Null }
 	
-    if (Test-Path $Target) { Remove-Item $Target -Recurse -Force }
+	if (Test-Path $Target) { Remove-Item $Target -Recurse -Force }
 	
-    New-Item -ItemType SymbolicLink -Path $Target -Target $Source | Out-Null }
+	New-Item -ItemType SymbolicLink -Path $Target -Target $Source | Out-Null }
 # --- aliases ---
 set-alias xpl explorer
 set-alias cd z
