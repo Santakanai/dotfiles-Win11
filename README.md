@@ -3,7 +3,7 @@
 автоматическая установка через скрипты.
 
 ## Cursors
-![Cursors preview](cursors/image.png)
+![Cursors preview](cursors/Image.png)
 
 ## Installation
 1. clone repo
