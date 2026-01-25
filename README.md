@@ -2,11 +2,12 @@
 дотсы для win 11<br>
 автоматическая установка через скрипты.
 
-## Cursors
+## Cursors preview
 ![Cursors preview](cursors/Image.png)
 
-## Installation
+## Cursors installation
 1. clone repo
-2. go to `<repo>/cursors/install.inf`
-3. right click on `install.inf`, and find `install`
-4. profit
+2. pick Light or Dark variant
+3. go to `<repo>/cursors/install.inf`
+4. right click on `install.inf`, and find `install`
+5. profit
